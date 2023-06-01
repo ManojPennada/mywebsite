@@ -285,3 +285,15 @@ a:hover {
   background-color: #2E0249;
   color: #fff;
 }
+
+.social a
+{
+  display: inline-block;
+  margin-right: 20px;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.social a:hover
+{
+  transform: scale(0.5) translateY(-10px);
+}
