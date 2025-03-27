@@ -3,10 +3,315 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Manoj's CV</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Pennada | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Manoj Pennada - Software Engineer and Machine Learning Enthusiast based in Bangalore, India.">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Pennada Manoj HarshaVardhan Teja</h1>
+                <p>Software Engineer | ML Enthusiast</p>
+                <div class="header-social">
+                    <a href="https://github.com/ManojPennada" target="_blank"><i class="social-icon github"></i></a>
+                    <a href="https://www.linkedin.com/in/manoj-pennada/" target="_blank"><i class="social-icon linkedin"></i></a>
+                    <a href="mailto:manojpennada@gmail.com"><i class="social-icon email"></i></a>
+                </div>
+            </div>
+            <div class="profile-pic">
+                <img src="https://avatars.githubusercontent.com/u/101521412?v=4" alt="Manoj Pennada" onclick="zoomIn()">
+            </div>
+        </div>
+    </header>
+    <div class="zoom-overlay" onclick="zoomOut()"></div>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <section id="about" class="section-card">
+            <h2>About Me</h2>
+            <p>Hello there amigos👋, I'm Manoj...</p>
+            <p>I am a Software Engineer and Machine Learning enthusiast currently pursuing a B.Tech degree in Computer Science at SRM University AP (CGPA: 9.1/10.0). My expertise spans automation engineering, software development, and machine learning, with practical experience in cross-platform testing and automation.</p>
+            <p>I've worked as an Automation Engineer Intern at Western Digital (SanDisk) in Bangalore, where I developed cross-platform testing solutions and improved testing efficiency. I'm also passionate about ML/AI, having been selected for Amazon's Machine Learning Summer School twice, ranking in the top 4.9% among 61,000+ applicants.</p>
+            <div class="personal-interests">
+                <p>- 📷 Photography freak (Photography Vertical Lead for INFINITUS 2024)</p>
+                <p>- 🌱 Ecofriendly</p>
+                <p>- 💻 Problem solver and competitive programmer</p>
+            </div>
+        </section>
+
+        <section id="experience" class="section-card">
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Sandisk (Bengaluru)</h3>
+                    <span class="date">Feb 2025 - Present</span>
+                </div>
+                <h4>SDET Intern</h4>
+                <ul>
+                    <li>Worked with advanced flash storage technologies and internal protocols (SCSI, SD), optimizing power delivery systems.</li>
+                    <li>Built a Django-based unified web portal that improved test efficiency by 400%, reducing test execution time by up to 75%.</li>
+                    <li>Designed a Django server capable of triggering automated tests across multiple machines and platforms, reducing manual effort by 70%.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Western Digital (Bengaluru)</h3>
+                    <span class="date">Sep 2024 - Feb 2025</span>
+                </div>
+                <h4>SDET Intern</h4>
+                <ul>
+                    <li>Automated 100% of test cases across Linux, macOS, and Windows platforms using core Python scripts, osascripts, and bash commands.</li>
+                    <li>Reduced manual testing efforts by 80% and improved execution efficiency through optimized algorithms and custom testing frameworks.</li>
+                    <li>Resolved 50+ unresolved Jira tickets by implementing innovative solutions and optimizing workflows.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Amazon</h3>
+                    <span class="date">Oct 2023 & Aug 2024</span>
+                </div>
+                <h4>Machine Learning Summer School Apprentice</h4>
+                <ul>
+                    <li>Selected twice for Amazon ML Summer School, ranking in the top 4.9% among 61,000+ applicants.</li>
+                    <li>Specialized in supervised learning, deep neural networks, and reinforcement learning through 200+ hours of intensive training.</li>
+                    <li>Collaborated with Amazon ML scientists in live Q&A sessions, applying theoretical knowledge to real-world ML applications.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="section-card">
+            <h2>Projects</h2>
+            
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Stock Price Prediction with Live Data</h3>
+                    <div class="project-tags">
+                        <span>Flask</span>
+                        <span>Random Forest</span>
+                        <span>XGBoost</span>
+                        <span>ARIMA</span>
+                    </div>
+                    <p>Developed a predictive analytics tool using Flask, achieving 85% prediction accuracy. Launched a scalable web application enabling real-time stock price predictions and data visualization.</p>
+                    <a href="#" class="project-link">View Deployment</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Live Emotion Detection App</h3>
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>TensorFlow Lite</span>
+                        <span>Mobile Development</span>
+                    </div>
+                    <p>Designed a real-time emotion detection application with Flutter and TFLite, achieving 90% accuracy in emotion recognition. Released on both Android and iOS platforms, reaching 1,000+ active users.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Leaf Disease Detection</h3>
+                    <div class="project-tags">
+                        <span>CNN</span>
+                        <span>Fuzzy Logic</span>
+                        <span>Genetic Algorithms</span>
+                        <span>LLMs</span>
+                    </div>
+                    <p>Implemented an intelligent system to detect crop leaf diseases, achieving 92% accuracy in disease classification. Utilized Large Language Models (LLMs) to generate preventive measures and treatment recommendations.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Marine Plastic Waste Detection</h3>
+                    <div class="project-tags">
+                        <span>Digital Image Processing</span>
+                        <span>Satellite Imagery</span>
+                    </div>
+                    <p>Constructed an image processing system to detect marine plastic waste using Sentinel-2 satellite images, achieving 88% detection accuracy. Deployed the system for large-scale environmental monitoring.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="section-card">
+            <h2>Publications & Open Source</h2>
+            
+            <div class="publication-item">
+                <h3>Extractive Text Summarization on Medical Insights using Fine-tuned Transformers</h3>
+                <p>Published in Taylor & Francis, utilizing BERT and BART for biomedical text summarization. Achieved an average ROUGE score of 0.7 on 800+ abstracts, enhancing research efficiency in medical literature analysis.</p>
+                <a href="#" class="button">Read Publication</a>
+            </div>
+
+            <div class="publication-item">
+                <h3>Multipurpose Resource Automation (MPRA)</h3>
+                <p>Designed and deployed the 'mpra' Python package, facilitating automated file and directory management tasks. Implemented features for organizing files by extension, monitoring directory changes, and checking disk space.</p>
+                <a href="#" class="button">View on PyPi</a>
+            </div>
+        </section>
+
+        <section id="skills" class="section-card">
+            <h2>Skill Set</h2>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>Flutter</li>
+                        <li>Go</li>
+                        <li>Dart</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <ul class="skill-list">
+                        <li>TensorFlow</li>
+                        <li>Keras</li>
+                        <li>PyTorch</li>
+                        <li>Scikit-learn</li>
+                        <li>NLTK</li>
+                        <li>SpaCy</li>
+                        <li>Django</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Git/GitHub</li>
+                        <li>Docker</li>
+                        <li>MySQL</li>
+                        <li>SQLite</li>
+                        <li>VS Code</li>
+                        <li>Jupyter Notebook</li>
+                        <li>Linux</li>
+                        <li>macOS/Windows</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Design Tools</h3>
+                    <ul class="skill-list">
+                        <li>Figma</li>
+                        <li>Adobe XD</li>
+                        <li>Canva</li>
+                        <li>Adobe Lightroom</li>
+                        <li>Adobe Premiere Pro</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="core-skills">
+                <h3>Core Skills</h3>
+                <div class="core-skills-grid">
+                    <div class="core-skill">Problem Solving</div>
+                    <div class="core-skill">Algorithm Design</div>
+                    <div class="core-skill">Data Structures</div>
+                    <div class="core-skill">System Design</div>
+                    <div class="core-skill">Competitive Programming</div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="achievements" class="section-card">
+            <h2>Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon amazon"></div>
+                    <h3>Amazon ML Summer School</h3>
+                    <p>Selected twice (2024 & 2025), ranking in the top 4.9% among 61,000+ applicants</p>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon education"></div>
+                    <h3>Academic Excellence</h3>
+                    <p>Maintaining 9.1/10.0 CGPA at SRM University AP</p>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon leadership"></div>
+                    <h3>Leadership</h3>
+                    <p>Photography Vertical Lead for INFINITUS 2024</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-card">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon email"></div>
+                        <p>manojpennada@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon phone"></div>
+                        <p>+91 6305234192</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon location"></div>
+                        <p>Bangalore, Karnataka, India</p>
+                    </div>
+                </div>
+                
+                <button class="contact-btn">Send Message</button>
+            </div>
+            
+            <div class="popup" id="popup">
+                <h2>Contact Me</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+                <span class="close-btn" id="close-btn">&times;</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Connect with me:</h3>
+        <div class="social-links">
+            <a href="https://github.com/ManojPennada" target="_blank"><i class="social-icon github"></i>GitHub</a>
+            <a href="https://www.linkedin.com/in/manoj-pennada/" target="_blank"><i class="social-icon linkedin"></i>LinkedIn</a>
+            <a href="https://twitter.com/manojpennada" target="_blank"><i class="social-icon twitter"></i>Twitter</a>
+            <a href="https://www.facebook.com/tejapennada/" target="_blank"><i class="social-icon facebook"></i>Facebook</a>
+            <a href="https://instagram.com/manoj_pennada_17" target="_blank"><i class="social-icon instagram"></i>Instagram</a>
+        </div>
+        <p>&copy; 2025 Manoj Pennada</p>
+    </footer>
+
     <script>
+        // Image zoom functionality
         function zoomIn() {
             var zoomOverlay = document.querySelector('.zoom-overlay');
             var profilePic = document.querySelector('.profile-pic img');
@@ -22,158 +327,53 @@
             zoomOverlay.innerHTML = '';
         }
 
+        // Contact form popup
+        const contactBtn = document.querySelector('.contact-btn');
+        const popup = document.querySelector('.popup');
+        const closeBtn = document.querySelector('.close-btn');
 
+        contactBtn.addEventListener('click', () => {
+            popup.style.display = 'block';
+        });
+
+        closeBtn.addEventListener('click', () => {
+            popup.style.display = 'none';
+        });
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop - 60,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add scroll-based animations
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section-card').forEach(section => {
+            observer.observe(section);
+        });
     </script>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-    <!-- Header -->
-    <header>
-        <h1>Pennada Manoj HarshaVardhan Teja</h1>
-        <p>Web Developer</p>
-        <div class="profile-pic">
-            <img src="https://avatars.githubusercontent.com/u/101521412?v=4"
-                onclick="zoomIn()">
-        </div>
-        <div class="zoom-overlay" onclick="zoomOut()"></div>
-    </header>
-
-    <!-- Main -->
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hello there amigos👋, I'm Manoj...</p>
-            <p>I am a dedicated programmer and aspiring ML engineer currently pursuing a B.Tech degree in Computer
-                Science at SRM
-                University. My expertise lies in various programming languages, including C, C++, Python, Java, as well
-                as web development
-                technologies like HTML, CSS, and JavaScript. Additionally, I have a creative side, proficient in design
-                tools such as Figma,
-                Adobe XD, Canva, and Adobe Photoshop Lightroom CC. Along with my technical skills, I bring strong
-                teamwork and
-                organizational abilities. Photography is another passion of mine that fuels my creativity</p>
-            <!-- <p>- 🔭 I’m currently working on my academic projects</p> -->
-            <p>- 📷 Photography freak</p>
-            <p>- 🌱 Ecofriendly</p>
-        </section>
-        <section>
-            <h2>Skill Set</h2>
-
-            <article>
-                <h3>Programming Languages</h3>
-                <ul>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>Python</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Web Development</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <!-- <li>jQuery</li> -->
-                    <li>Bootstrap</li>
-                </ul>
-            </article>
-            <article>
-                <h3>UI DESIGNING</h3>
-                <p align="left">
-                    <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-                        <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40"
-                            height="40" /> </a>
-                    <a href="https://www.adobe.com/in/products/xd.html" target="_blank" rel="noreferrer"> <img
-                            src="https://play-lh.googleusercontent.com/kaox1VteLsWAuNxPxhm8t4llaoyFhxzDjo9g4Hdf92bKdT_Sn6Yrdku6rApuc5ktirw"
-                            alt="xd" width="40" height="40" />
-                    </a>
-                </p>
-            </article>
-            <article>
-                <h3 align="left">Tools:</h3>
-                <p align="left">
-                    <a href="https://www.adobe.com/in/products/photoshop.html" target="_blank" rel="noreferrer">
-                        <img src="https://play-lh.googleusercontent.com/r9zF77jorOmkaRlXnvsLiuVQ3p_gYW8y7x_UL-COoH9PxaTUEMbW1wiwS0z1n1Q31Q"
-                            alt="photoshop" width="40" height="40" /> </a>
-                    <a href="https://www.adobe.com/in/products/lightroom.html" target="_blank" rel="noreferrer"> <img
-                            src="https://play-lh.googleusercontent.com/RGvuFCqPOIiR1i9QDN6-HNt5nOuWj4zuqQduxnJn0ughdo-yhAJNG1r6W1A3Fc6Z9w"
-                            alt="lightroom" width="40" height="40" />
-                    </a>
-                    <a href="https://www.canva.com/" target="_blank" rel="noreferrer"> <img
-                            src="https://play-lh.googleusercontent.com/3aWGqSf3T_p3F6wc8FFvcZcnjWlxpZdNaqFVEvPwQ1gTOPkVoZwq6cYvfK9eCkwCXbRY"
-                            alt="canva" width="40" height="40" />
-                    </a>
-                    <a href="https://www.adobe.com/in/products/premiere.html">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1200px-Adobe_Premiere_Pro_CC_icon.svg.png"
-                            alt="pp" width="40" height="40">
-                    </a>
-                </p>
-            </article>
-        </section>
-        <section>
-            <h2>Contact Me</h2>
-            <p>You can ping me anywhere links are given in the footer section</p>
-            <button class="contact-btn">Click here</button>
-            <div class="popup" id="popup">
-                <h2>Contact Me</h2>
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-
-                    <button type="submit">Send</button>
-                </form>
-                <span class=" close-btn" id="close-btn">&times;</span>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <h3 align="center">Connect with me:</h3>
-        <p align="center" class="social">
-            <a href="https://github.com/ManojPennada" target="blank"><img align="center"
-                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
-                    alt="ManojPennada" height="30" width="40" /></a>
-            <a href="https://twitter.com/manojpennada" target="blank"><img align="center"
-                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
-                    alt="manojpennada" height="30" width="40" /></a>
-            <a href="https://www.linkedin.com/in/manoj-pennada/" target="blank"><img align="center"
-                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-                    alt="manojpennada" height="30" width="40" /></a>
-            <a href="https://www.facebook.com/tejapennada/" target="blank"><img align="center"
-                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
-                    alt="manoj pennada" height="30" width="40" /></a>
-            <a href="https://instagram.com/manoj_pennada_17" target="blank"><img align="center"
-                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-                    alt="manoj_pennada_17" height="30" width="40" /></a>
-        </p>
-        <p><br>&copy; 2023 Manoj Pennada</p>
-    </footer>
 </body>
-<script>
-    // JavaScript for the pop-up
-
-    const contactBtn = document.querySelector('.contact-btn');
-    const popup = document.querySelector('.popup');
-    const closeBtn = document.querySelector('.close-btn');
-
-    contactBtn.addEventListener('click', () => {
-        popup.style.display = 'block';
-    });
-
-    closeBtn.addEventListener('click', () => {
-        popup.style.display = 'none';
-    });
-
-
-</script>
 
 </html>
